@@ -119,10 +119,13 @@ document.addEventListener("DOMContentLoaded", function () {
           window.print();
           break;
         case "linkedin":
-          window.open("https://www.linkedin.com/in/eilleeenzhang/", "_blank");
+          window.open(
+            "https://www.linkedin.com/in/ewan-pedersen-711368293/",
+            "_blank",
+          );
           break;
         case "github":
-          window.open("https://github.com/fanteastick", "_blank");
+          window.open("https://github.com/Gassandrid", "_blank");
           break;
       }
       hidePalette();
